@@ -33,7 +33,7 @@ for i in range(1,3): # i는 페이지 수
     for k in range(1, len(result_list) + 1):
         write_cell.cell(k, 1, str(i) + " 페이지")
         write_cell.cell(k, 2, result_list[k - 1])
-    write_workbook.save("실투갤게시판_" + str(i) + "_PAGE_" + nowDate + "제목리스트.xls")
+    write_workbook.save("JusikGall_" + str(i) + "_PAGE_" + nowDate + "_List.xlsx")
     result_list.clear()
 
 print(result_list)
