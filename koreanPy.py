@@ -1,7 +1,7 @@
-from konlpy.tag import kkma
+from konlpy.tag import Kkma
 
 #자연어 해석 모듈 로드
-kkma = kkma()
+kkma = Kkma()
 #문장을 형태소로 분해
 print(kkma.sentence("안녕하세요. 제 이름은 박상인입니다."))
 #문장의 명사만 추출
