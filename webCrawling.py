@@ -42,15 +42,20 @@ for i in range(1,3): # i는 페이지 수
         write_cell.cell(k, 1, str(i) + " 페이지")
         write_cell.cell(k, 2, result_list[k - 1])
     write_workbook.save("JusikGall_" + str(i) + "_PAGE_" + nowDate + "_List.xlsx")
-
+    
+    #리스트를 뽑아서 명사분해하여 다시 리스트
     for l in result_list:
         count_list = count_list + kkma.nouns(l)
-    print(collections.Counter(count_list))
-    #result 초기화
+        
+    # 제목 추출 결과 많이 나온 5위까지의 명사
+    print(collections.Counter(count_list).most_common(5))
+    
+    # result 초기화
     result_list.clear()
 
-#웹 드라이버 종료
+# 웹 드라이버 종료
 driver.close()
-#엑셀 워크북 종료
+
+# 엑셀 워크북 종료
 write_workbook.close()
 
