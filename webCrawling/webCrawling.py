@@ -11,7 +11,7 @@ now = datetime.datetime.now()
 nowDate = "{}년{}월{}일".format(now.year, now.month, now.day)
 
 # 웹 드라이버
-driver = webdriver.Chrome("./chromedriver")
+driver = webdriver.Chrome("../chromedriver")
 # 엑셀 워크북 로드
 write_workbook = Workbook()
 write_cell = write_workbook.active
