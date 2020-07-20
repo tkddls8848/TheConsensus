@@ -3,3 +3,10 @@ chromedriver.exe
 
 # 장고 db
 /Django_tutorial/db.sqlite3
+/Django_tutorial/my_site_prj/__pycache__
+
+# 가상 환경
+/venv
+
+# 타 브랜치
+/Django_tutorial
