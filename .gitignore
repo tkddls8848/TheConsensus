@@ -1,3 +1,5 @@
+# 웹 크롤링 드라이버
 chromedriver.exe
-/libxml2
-/lxml
+
+# 장고 db
+/Django_tutorial/db.sqlite3

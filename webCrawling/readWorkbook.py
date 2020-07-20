@@ -38,14 +38,15 @@ result = collections.Counter(result_list)
 result_key = list(result.keys())
 result_value = list(result.values())
 
+
 # 데이터 그래프 표현
 label = result_key
 index = np.arange(len(label))
 plt.bar(index, result_value)
 
 plt.title('title')
-plt.xlabel('x')
-plt.ylabel('y')
+plt.xlabel('x축')
+plt.ylabel('y축')
 plt.xticks(index, label)
 
 plt.show()
