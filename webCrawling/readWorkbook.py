@@ -3,7 +3,9 @@ from konlpy.tag import Kkma
 import datetime
 import collections
 import numpy as np
+import matplotlib as mpl
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
 
 # 현재 시간
 now = datetime.datetime.now()
@@ -23,11 +25,13 @@ for a in range(1, 3):
     result_list = []
 
     # 리스트 분석
-    for i in range(6, 8) :
+    for i in range(6, 15) :
         print(read_cell.cell(i, 2).value)
         # 개별 제목 명사 분해
-        for j in kkma.nouns(read_cell.cell(i, 2).value) :
-            result_list.append(j)
+        for j in kkma.nouns(read_cell.cell(i, 2).value):
+            # 조사 삭제
+            if len(kkma.nouns(read_cell.cell(i, 2).value)) != 1:
+                result_list.append(j)
         print(kkma.nouns(read_cell.cell(i, 2).value))
 
 # 결과 count
@@ -38,6 +42,10 @@ result = collections.Counter(result_list)
 result_key = list(result.keys())
 result_value = list(result.values())
 
+# 한글 폰트 로드
+font_location = 'C:\WINDOWS\FONTS\MALGUNSL.TTF'
+font_name = fm.FontProperties(fname=font_location).get_name()
+mpl.rc('font', family=font_name)
 
 # 데이터 그래프 표현
 label = result_key
