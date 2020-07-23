@@ -8,5 +8,5 @@ chromedriver.exe
 # 가상 환경
 /venv
 
-# 타 브랜치
+# 장고
 /Django_tutorial
