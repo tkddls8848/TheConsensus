@@ -18,7 +18,8 @@ kkma = Kkma()
 for a in range(1, 3):
 
     # 엑셀 로드
-    read_workbook = load_workbook('./JusikGall_' + str(a) + '_PAGE_' + nowDate + '_List.xlsx')
+#   read_workbook = load_workbook('./JusikGall_' + str(a) + '_PAGE_' + nowDate + '_List.xlsx')
+    read_workbook = load_workbook('./JusikGall_1_PAGE_2020년7월21일_List.xlsx')
     read_cell = read_workbook.active
 
     # 결과 리스트
