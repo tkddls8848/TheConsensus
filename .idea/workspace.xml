@@ -20,14 +20,13 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:Django" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f7aa965-5b4a-407b-9227-12acc0b063b1" name="Default Changelist" comment="gitignore">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0dde9571-8206-4408-9a04-590c965f5276" name="Revert &quot;gitignore&quot;" comment="Revert &quot;gitignore&quot;&#10;&#10;This reverts commit f750e61e" />
     <list id="779f7f00-a5c2-4c3c-83eb-b5b26b47c823" name="Revert &quot;gitignore&quot;-2" comment="Revert &quot;gitignore&quot;&#10;&#10;This reverts commit 75a7e94d" />
@@ -267,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595668271224</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="확인">
+      <created>1595669104090</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595669104090</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -281,7 +287,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="Django" />
                       </list>
                     </value>
                   </entry>
@@ -308,7 +314,8 @@
     <MESSAGE value="Modify TimeZone" />
     <MESSAGE value="clear branch" />
     <MESSAGE value="venv 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="venv 변경" />
+    <MESSAGE value="확인" />
+    <option name="LAST_COMMIT_MESSAGE" value="확인" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1595117059541">
@@ -338,25 +345,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="633" y="303" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1594447399034" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1595668731993">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1595669063574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595668731993" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595669063574" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595426610751" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1595668731993">
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1595669063574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595668731993" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595669063574" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595426610751" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1595668731992">
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1595669063573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595668731992" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595669063573" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595426610751" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1595668731993">
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1595669063574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595668731993" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595669063574" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595426610751" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1594643089460">
       <screen x="0" y="0" width="1920" height="1040" />
