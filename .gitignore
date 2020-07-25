@@ -9,5 +9,8 @@ chromedriver.exe
 /venv
 .idea
 
+# 크롤링 데이터
+.xlsx
+
 # 장고
 /Django_tutorial
