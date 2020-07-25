@@ -7,6 +7,7 @@ chromedriver.exe
 
 # 가상 환경
 /venv
+.idea
 
 # 장고
 /Django_tutorial
