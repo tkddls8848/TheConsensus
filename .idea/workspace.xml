@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5f7aa965-5b4a-407b-9227-12acc0b063b1" name="Default Changelist" comment="gitignore">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="0dde9571-8206-4408-9a04-590c965f5276" name="Revert &quot;gitignore&quot;" comment="Revert &quot;gitignore&quot;&#10;&#10;This reverts commit f750e61e" />
     <list id="779f7f00-a5c2-4c3c-83eb-b5b26b47c823" name="Revert &quot;gitignore&quot;-2" comment="Revert &quot;gitignore&quot;&#10;&#10;This reverts commit 75a7e94d" />
@@ -398,10 +399,10 @@
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595668140195" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595149118241" />
-    <state x="451" y="184" key="Vcs.Push.Dialog.v2" timestamp="1595247269518">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1595669471819">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594898751835" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595669471819" />
     <state x="451" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595247269518" />
     <state x="839" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1595248539023">
       <screen x="0" y="0" width="1920" height="1040" />
