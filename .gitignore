@@ -2,8 +2,8 @@
 chromedriver.exe
 
 # 장고 db
-/Django_app/My_Django/db.sqlite3
-/Django_app/My_Django/__pycache__
+/Django_app/db.sqlite3
+/Django_app/__pycache__/
 
 # 가상 환경
 /venv
