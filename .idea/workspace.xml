@@ -28,6 +28,7 @@
     <list default="true" id="5f7aa965-5b4a-407b-9227-12acc0b063b1" name="Default Changelist" comment="gitignore">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_app/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_app/blog/models.py" afterDir="false" />
     </list>
     <list id="0dde9571-8206-4408-9a04-590c965f5276" name="Revert &quot;gitignore&quot;" comment="Revert &quot;gitignore&quot;&#10;&#10;This reverts commit f750e61e" />
     <list id="779f7f00-a5c2-4c3c-83eb-b5b26b47c823" name="Revert &quot;gitignore&quot;-2" comment="Revert &quot;gitignore&quot;&#10;&#10;This reverts commit 75a7e94d" />
@@ -274,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595669104090</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="create blog App">
+      <created>1595670783107</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595670783107</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,7 +324,8 @@
     <MESSAGE value="clear branch" />
     <MESSAGE value="venv 변경" />
     <MESSAGE value="확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="확인" />
+    <MESSAGE value="create blog App" />
+    <option name="LAST_COMMIT_MESSAGE" value="create blog App" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1595117059541">
