@@ -19,15 +19,24 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/Django" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f7aa965-5b4a-407b-9227-12acc0b063b1" name="Default Changelist" comment="gitignore">
+      <change afterPath="$PROJECT_DIR$/Django_app/blog/templates/blog/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_app/My_Django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_app/My_Django/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_app/My_Django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_app/My_Django/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_app/blog/blog_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_app/blog/blog_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_app/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_app/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_app/blog/templates/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_app/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django_app/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django_app/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Django_app/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -89,20 +99,25 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Django_app/blog" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Park\PycharmProjects\TheConsensus\Django_app\blog" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Park\PycharmProjects\TheConsensus\Django_app\blog\templetes\blog" />
       <recent name="C:\TheConsensus\webCrawling" />
       <recent name="C:\TheConsensus" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.wordCloud">
+  <component name="RunManager" selected="Python.webCrawling">
     <configuration name="webCrawling (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TheConsensus" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -320,7 +335,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Django" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -336,6 +351,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/Django_tutorial" />
+      <path value="$PROJECT_DIR$/Django_app" />
     </ignored-roots>
     <MESSAGE value="Crwaling many pages" />
     <MESSAGE value="use openpyxl workbook %% save separate page" />
@@ -359,6 +375,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1595117059541" />
+    <state x="859" y="383" key="#Vim_Emulation" timestamp="1595937034914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="859" y="383" key="#Vim_Emulation/0.0.1920.1040@0.0.1920.1040" timestamp="1595937034914" />
     <state x="692" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595424303089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -430,11 +450,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="793" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595333418081" />
-    <state x="369" y="114" key="SettingsEditor" timestamp="1595850180952">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1596019034015">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="369" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595850180952" />
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595149118241" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596019034015" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1595669471819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -448,6 +468,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="570" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1594447522874" />
+    <state x="668" y="118" width="584" height="804" key="find.popup" timestamp="1595939911222">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="118" width="584" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595939911222" />
     <state x="588" y="184" key="git4idea.branch.GitSmartOperationDialog" timestamp="1595849562491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

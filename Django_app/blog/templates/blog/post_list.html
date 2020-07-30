@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>장고 페이지</title>
+</head>
+<body>
+    {% for p in object_list%}
+        <h4>{{p.title}}</h4>
+        <h3>{{p.author}}</h3>
+        <p>{{p.title}}::{{p.author}}</p>
+    {% endfor %}
+</body>
+</html>
