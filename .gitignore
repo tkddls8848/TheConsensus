@@ -7,7 +7,7 @@ chromedriver.exe
 
 # 가상 환경
 /venv
-.idea
+/.idea
 
 # 크롤링 데이터
 .xlsx
