@@ -7,6 +7,10 @@ from django.views.generic import ListView
 class PostList(ListView):
     model = Post
 
+    # 포스트 생성 날짜 순으로 정렬
+    def get_queryset(self):
+        return Post.objects.order_by('-date')
+
 # def index(request):
 #
 #     posts = Post.objects.all()
