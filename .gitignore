@@ -5,6 +5,9 @@ chromedriver.exe
 /Django_app/db.sqlite3
 /Django_app/__pycache__/
 
+# 장고 이미지파일
+/Django_app/_media
+
 # 가상 환경
 /venv
 /.idea
